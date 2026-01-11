@@ -1,0 +1,76 @@
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Python
+venv/
+.venv/
+env/
+ENV/
+.env
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.ipynb_checkpoints/
+
+# Optional: virtualenv / environment tooling
+.envrc
+pip-wheel-metadata/
+
+# Keep .ipynb files, ignore temporary junk only
+*.nb.html
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.brf
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.synctex.gz
+*.synctex(busy)
+*.fdb_latexmk
+*.fls
+*.run.xml
+*.nav
+*.snm
+*.vrb
+*.xdv
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.iml
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Vim
+*.swp
+*.swo
+*.swn
+
+
+# Generated data / temporary files
+*.tmp
+*.bak
+*.orig
